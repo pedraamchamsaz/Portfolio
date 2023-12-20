@@ -1,0 +1,39 @@
+#menu, #location {
+    font-family: "Bad Robot";
+}
+
+@font-face {
+    font-family: "CF Glitch City";
+    src: url(CfGlitchCityRegular-L1vZ);
+}
+
+/* #name {
+    font-family: "CF Glitch City";
+} */
+
+#name {
+    font-family: "Rubik Glitch";
+}
+
+@font-face {
+    font-family: "Glitch Goblin";
+    src: url(GlitchGoblin-2O87v);
+}
+
+@font-face {
+    font-family: "Bad Robot";
+    src: url(BadRobot-mLzZ2);
+}
+
+@font-face {
+    font-family: "Hatchway";
+    src: url(HatchwayUltraExpanded-Bold);
+}
+
+#subtitle {
+    font-family: "Glitch Goblin";
+}
+
+/* #location {
+    font-family: "Rubik Moonrocks";
+} */
