@@ -11,7 +11,7 @@
     font-family: "CF Glitch City";
 } */
 
-#name {
+.title {
     font-family: "Rubik Glitch";
 }
 
@@ -30,7 +30,7 @@
     src: url(HatchwayUltraExpanded-Bold);
 }
 
-#subtitle {
+#subtitle, #intro-text {
     font-family: "Glitch Goblin";
 }
 
