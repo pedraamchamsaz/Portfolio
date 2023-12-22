@@ -1,5 +1,9 @@
-#menu, #location {
+#menu {
     font-family: "Bad Robot";
+}
+
+#location, #subtitle {
+    font-family: "Press Start 2P";
 }
 
 @font-face {
@@ -7,9 +11,6 @@
     src: url(CfGlitchCityRegular-L1vZ);
 }
 
-/* #name {
-    font-family: "CF Glitch City";
-} */
 
 .title {
     font-family: "Rubik Glitch";
@@ -30,10 +31,17 @@
     src: url(HatchwayUltraExpanded-Bold);
 }
 
-#subtitle, #intro-text {
+#intro-text, h4 {
     font-family: "Glitch Goblin";
 }
 
-/* #location {
-    font-family: "Rubik Moonrocks";
+/* h4 {
+    color: white;
+    font-family: "Glitch Goblin";
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 } */
+
+.project, .lang-btn {
+    font-family: "Hatchway";
+}

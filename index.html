@@ -11,23 +11,44 @@
 </head>
 <body class="bg-zinc-900">
     <main id="home" class="w-screen h-screen">
-        <nav class="w-screen h-24 flex justify-end">
-            <p id="menu" class="text-white/75 text-3xl mt-6 mr-10 font-['Rubik Moonrocks']">Menu</p>
+        <nav class="w-screen h-24 flex justify-end fixed">
+            <p id="menu" class="text-white/75 text-2xl pt-8 pr-10 font-['Rubik Moonrocks']">Menu</p>
         </nav>
-        <div class="w-4/5 h-4/5 mx-auto text-center">
+        <div class="w-4/5 h-4/5 mx-auto text-center pt-24">
             <h1 id="name" class="title text-9xl pt-16 text-white">PEDRAAM CHAMSAZ</h1>
-            <h2 id="subtitle" class="text-3xl mt-8 text-white/75">FULL STACK WEB DEVELOPER</h2>
-            <h3 id="location" class="mt-8 text-white/75">LONDON, UK</h3>
+            <h2 id="subtitle" class="text-xl mt-8 text-white/75">FULL STACK WEB DEVELOPER</h2>
+            <!-- <h3 id="location" class="mt-8 text-white/75">LONDON, UK</h3> -->
         </div>
     </main>
-    <section id="personal-intro" class="w-screen h-screen flex items-center">
+    <section id="personal-intro" class="w-screen h-screen flex items-center relative">
         <div class="w-2/5 h-4/5 ml-20 p-5 text-white">
             <h2 class="title text-5xl">WHO AM I?</h2>
             <p id="intro-text" class="text-2xl mt-5 leading-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec elit magna. Etiam diam quam, malesuada sit amet commodo vitae, congue nec tellus. Cras id ligula ultrices, facilisis libero at, dapibus quam. Curabitur viverra, libero eget lacinia pretium, arcu ante vehicula purus, at venenatis quam urna ut nulla. Quisque consectetur.</p>
         </div>
     </section>
-    <section id="">
-
+    <section id="projects" class="w-screen h-screen pt-24">
+        <h2 class="title text-white text-center text-5xl">WHAT DO I DO?</h2>
+        <div class="flex gap-10 justify-center items-center mt-8">
+            <div class="relative hover:scale-110 text-white transition">
+                <img class="w-72 h-72 object-cover rounded-[36px] opacity-50" src="https://upload.wikimedia.org/wikipedia/commons/6/63/%E2%80%9CLa_muerte_de_Julio_C%C3%A9sar%E2%80%9D%2C_de_F._H._Fuger.jpg" alt="Julius Caesar being assassinated">
+                <h4 class="text-2xl absolute top-36 left-12">Caesar Cipher</h4>
+            </div>
+            <div class="relative hover:scale-110 text-white transition">
+                <img class="w-120 h-80 object-cover rounded-[36px] opacity-50" src="https://filmint.nu/wp-content/uploads/2013/10/Movies-Five-Cents.jpg" alt="Victorian cinema audience">
+                <h4 class="text-2xl absolute top-10 left-5">Movie Quiz</h4>
+                <p class="project absolute top-24 left-5 text-sm leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec elit magna. Etiam diam quam, malesuada sit amet commodo vitae, congue nec tellus. Cras id ligula ultrices, facilisis libero at.</p>
+                <div class="lang-btn absolute bottom-4 flex pl-5 justify-start gap-5 opacity-70">
+                    <div class="inline h-5 w-fit rounded-xl text-xs">HTML</div>
+                    <div class="inline h-5 w-fit rounded-xl text-xs">Tailwind CSS</div>
+                    <div class="inline h-5 w-fit rounded-xl text-xs">JavaScript</div>
+                </div>
+            </div>
+            <div class="relative hover:scale-110 text-white transition">
+                <img class="transition w-72 h-72 object-cover rounded-[36px] opacity-30" src="Game Screenshot.png" alt="Text-based adventure game">
+                <h4 class="text-2xl absolute top-28 left-0 text-center p-3">Text-Based Adventure Game</h4>
+            </div>
+            </ul>
+        </div>
     </section>
 </body>
 </html>
